@@ -31,6 +31,7 @@
         "canadaeast",
         "francecentral",
         "southindia",
+        "eastus",
         "uksouth",
         "swedencentral",
         "westus"
@@ -56,15 +57,15 @@
     },
     "chatGptDeploymentName": {
       "type": "string",
-      "defaultValue": "chat-gpt-35-turbo"
+      "defaultValue": "gpt-4"
     },
     "chatGptModelName": {
       "type": "string",
-      "defaultValue": "gpt-35-turbo"
+      "defaultValue": "gpt-4"
     },
     "chatGptModelVersion": {
       "type": "string",
-      "defaultValue": "1106"
+      "defaultValue": "0613"
     },
     "embeddingDeploymentName": {
       "type": "string",
@@ -153,7 +154,7 @@
     },
     "storageServiceImageContainerName": {
       "type": "string",
-      "defaultValue": "images"
+      "defaultValue": "assistant"
     },
     "resourceGroupName": {
       "type": "string",
